@@ -22,7 +22,7 @@ const tamar2="good luck!!!!!"
         <h1>{tamarrotan}</h1>
         <nav className="flex space-x-6">
           <Link to="/" className={`nav-link ${location.pathname === '/' ? 'font-bold' : ''}`}>
-            Shopping List
+            Shopping List app
           </Link>
           <Link to="/order" className={`nav-link ${location.pathname === '/order' ? 'font-bold' : ''}`}>
             Order Details {items.length > 0 && `(${items.length})`}
