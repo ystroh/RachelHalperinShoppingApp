@@ -19,7 +19,7 @@ mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:23232/shoppinga
   useNewUrlParser: true,
   useUnifiedTopology: true
 })
-.then(() => console.log('MongoDB Connected'))
+.then(() => console.log('MongoDB Connected and succed'))
 .catch(err => console.error('MongoDB Connection Error:', err));
 
 // Routes
